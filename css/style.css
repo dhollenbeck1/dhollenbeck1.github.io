@@ -190,9 +190,9 @@ img {
 	display: block;
 	float: right;
 	font-family: audiowide-regular-webfont;
-	font-size: 60px;
+	font-size: 20px;
 	font-weight: normal;
-	line-height: 60px;
+	line-height: 20px;
 	margin: 187px 0 27px;
 	padding: 0 38px 0 399px;
 	position: relative;
@@ -206,9 +206,9 @@ img {
 	display: block;
 	float: right;
 	font-family: Arial;
-	font-size: 43px;
+	font-size: 18px;
 	font-weight: normal;
-	line-height: 43px;
+	line-height: 18px;
 	margin: 0 0 36px;
 	padding: 0 146px 0 506px;
 	position: relative;
