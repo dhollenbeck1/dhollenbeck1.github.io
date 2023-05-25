@@ -519,12 +519,10 @@ img {
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
 	background: url(../images/bg-about2.jpg) no-repeat center center #000000;
-	background-size: 100%;
-	display: block;
-	margin: 0px -200px 0px;
+	margin: 0px 0px 0px;
 	min-height: auto;
 	max-height: 40%;
-	padding: 0 0px 500px;
+	padding: 100px 150px 100px;
 	max-width: 100%;
 }
 #body.about .header div, #body .header div {
@@ -540,9 +538,9 @@ img {
 	font-size: 36px;
 	font-weight: normal;
 	line-height: 20x;
-	margin: 0 400px 10px;
-	padding: 0px 0 0; 
-	text-align: left;
+	margin: 0 0px 0px;
+	padding: 10px 0 40px; 
+	text-align: center;
 	text-transform: uppercase;
 	width: 840px;
 }
@@ -553,9 +551,9 @@ img {
 	font-size: 32px;
 	font-weight: normal;
 	line-height: 32px;
-	margin: 0px 600px 0px;
+	margin: 0px 0px 0px;
 	padding: 0;
-	text-align: right;
+	text-align: center;
 	text-transform: uppercase;
 	width: 820px;
 }
@@ -566,10 +564,10 @@ img {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 700px 0 ;
-	padding: 0;
-	text-align: right;
-	width: 820px;
+	margin: 0 0px 0 ;
+	padding: 20px 140px 0;
+	text-align: justify;
+	width: 620px;
 }
 #body.about .header div p a {
 	color: #ffffff;
