@@ -190,7 +190,7 @@ img {
 	z-index: 50;
 }
 #body.home .header div h1 {
-	color: black;
+	color: white;
 	display: block;
 	float: right;
 	font-family: audiowide-regular-webfont;
@@ -206,7 +206,7 @@ img {
 	z-index: 60;
 }
 #body.home .header div h2 {
-	color: black;
+	color: white;
 	display: block;
 	float: right;
 	font-family: Arial;
@@ -523,7 +523,7 @@ img {
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
 	background: url(../images/bg-about2.jpg) no-repeat center center #000000;
-	background-size: contain;
+	background-size: 60% auto;
 	margin: 0px 0px 0px;
 	min-height: 400px;
 	padding: 0px 0px 0px;
@@ -538,27 +538,27 @@ img {
 	color: #FFFFFF;
 	display: block;
 	font-family: audiowide-regular-webfont;
-	font-size: 36px;
+	font-size: 24px;
 	font-weight: normal;
 	line-height: 20x;
 	margin: 0 0px 0px;
-	padding: 10px 100px 40px; 
-	text-align: center;
+	padding: 20px 0px 0px; 
+	text-align: right;
 	text-transform: uppercase;
-	width: 840px;
+	width: 800px;
 }
 #body.about .header div h2 {
 	color: #FFFFFF;
 	display: block;
 	font-family: audiowide-regular-webfont;
-	font-size: 32px;
+	font-size: 20px;
 	font-weight: normal;
 	line-height: 32px;
 	margin: 0px 0px 0px;
-	padding: 0 200px 0;
-	text-align: center;
+	padding: 50 0px 0;
+	text-align: right;
 	text-transform: uppercase;
-	width: 820px;
+	width: 600px;
 }
 #body.about .header div p {
 	color: #ffffff;
@@ -567,10 +567,10 @@ img {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 0px 0 ;
-	padding: 20px 400px 0;
+	margin: 0 400px 0;
+	padding: 0px 0px 0;
 	text-align: justify;
-	width: 420px;
+	width: 400px;
 }
 #body.about .header div p a {
 	color: #ffffff;
