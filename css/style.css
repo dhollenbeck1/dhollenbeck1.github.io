@@ -523,7 +523,7 @@ img {
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
 	background: url(../images/bg-about2.jpg) no-repeat center center #000000;
-	background-size: 60% auto;
+	background-size: auto auto;
 	margin: 0px 0px 0px;
 	min-height: 400px;
 	padding: 0px 0px 0px;
@@ -542,10 +542,10 @@ img {
 	font-weight: normal;
 	line-height: 20x;
 	margin: 0 0px 0px;
-	padding: 20px 0px 0px; 
-	text-align: right;
+	padding: 0 10% 0px; 
+	text-align: center;
 	text-transform: uppercase;
-	width: 90%;
+	width: 80%;
 }
 #body.about .header div h2 {
 	color: #FFFFFF;
@@ -555,10 +555,10 @@ img {
 	font-weight: normal;
 	line-height: 32px;
 	margin: 0px 0px 0px;
-	padding: 0 0px 0;
+	padding: 10% 0px 0;
 	text-align: right;
 	text-transform: uppercase;
-	width: 60%;
+	width: 50%;
 }
 #body.about .header div p {
 	color: #ffffff;
@@ -567,8 +567,8 @@ img {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 50% 0;
-	padding: 0px 0px 0;
+	margin: 0 0 0;
+	padding: 4% 30% 0;
 	text-align: justify;
 	width: 50%;
 }
