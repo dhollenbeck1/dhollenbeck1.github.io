@@ -518,17 +518,18 @@ img {
 }
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
-	background: url(../images/bg-about.jpg) no-repeat center top #000000;
-	margin: 0;
-	min-height: 455px;
-	padding: 0;
+	background: url(../images/bg-about2.jpg) no-repeat left center #000000;
+	background-size: 20%;
+	margin: 0px 300px 0px;
+	min-height: 400px;
+	padding: 0 0px 0;
 	width: 100%;
 }
 #body.about .header div, #body .header div {
 	margin: 0 auto;
 	max-width: 960px;
 	overflow: hidden;
-	padding: 65px 0 40px;
+	padding: 40px 0 0px;
 }
 #body.about .header div h1, #body .header div h1 {
 	color: #FFFFFF;
@@ -536,12 +537,12 @@ img {
 	font-family: audiowide-regular-webfont;
 	font-size: 36px;
 	font-weight: normal;
-	line-height: 36px;
-	margin: 0 auto 87px;
+	line-height: 20x;
+	margin: 0 40px 40px;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
-	width: 940px;
+	width: 840px;
 }
 #body.about .header div h2 {
 	color: #FFFFFF;
@@ -552,7 +553,7 @@ img {
 	line-height: 32px;
 	margin: 0 auto 24px;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 	width: 820px;
 }
@@ -565,7 +566,7 @@ img {
 	line-height: 24px;
 	margin: 0 auto;
 	padding: 0;
-	text-align: center;
+	text-align: left;
 	width: 820px;
 }
 #body.about .header div p a {
@@ -582,7 +583,7 @@ img {
 	color: #a3a3a3;
 }
 #body.about .body {
-	background-color: #620031;
+	background-color: #01EF11;
 	margin: 0;
 	min-height: 253px;
 	overflow: hidden;
