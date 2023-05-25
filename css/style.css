@@ -6,10 +6,10 @@ body {
 	width: auto;
 }
 body #page {
-	background: url("../images/bg-home.jpg") no-repeat scroll center top #000000;
+	background: url("../images/bg-home3.jpg") no-repeat scroll center top #000000;
 	margin: 0;
 	overflow: hidden;
-	padding: 0;
+	padding: 0 0 0;
 	width: auto;
 	z-index: 3;
 }

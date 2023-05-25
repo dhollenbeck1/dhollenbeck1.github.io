@@ -6,10 +6,10 @@ body {
 	width: auto;
 }
 body #page {
-	background: url("../images/bg-home.jpg") no-repeat scroll center top #000000;
-	margin: 0;
+	background: url("../images/bg-home2.jpg") no-repeat scroll center top #000000;
+	margin: 10 100px 0;
 	overflow: hidden;
-	padding: 0;
+	padding: 0 0 0;
 	width: auto;
 	z-index: 3;
 }
@@ -565,7 +565,7 @@ img {
 	font-weight: normal;
 	line-height: 24px;
 	margin: 0 0px 0 ;
-	padding: 20px 300px 0;
+	padding: 20px 400px 0;
 	text-align: justify;
 	width: 420px;
 }
