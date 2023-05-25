@@ -7,6 +7,7 @@ body {
 }
 body #page {
 	background: url("../images/bg-home3.jpg") no-repeat scroll center top #000000;
+	background-size: contain;
 	margin: 0;
 	overflow: hidden;
 	padding: 0 0 0;
@@ -519,11 +520,10 @@ img {
 /*----------------------------------------body-styles---------------------------------------*/
 #body.about .header {
 	background: url(../images/bg-about2.jpg) no-repeat center center #000000;
+	background-size: contain;
 	margin: 0px 0px 0px;
 	min-height: 400px;
-	max-height: 100%;
 	padding: 0px 0px 0px;
-	max-width: 100%;
 }
 #body.about .header div, #body .header div {
 	margin: 0 auto;
