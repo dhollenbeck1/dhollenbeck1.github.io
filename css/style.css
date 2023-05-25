@@ -545,7 +545,7 @@ img {
 	padding: 20px 0px 0px; 
 	text-align: right;
 	text-transform: uppercase;
-	width: 800px;
+	width: 90%;
 }
 #body.about .header div h2 {
 	color: #FFFFFF;
@@ -555,10 +555,10 @@ img {
 	font-weight: normal;
 	line-height: 32px;
 	margin: 0px 0px 0px;
-	padding: 50 0px 0;
+	padding: 0 0px 0;
 	text-align: right;
 	text-transform: uppercase;
-	width: 600px;
+	width: 60%;
 }
 #body.about .header div p {
 	color: #ffffff;
@@ -567,10 +567,10 @@ img {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 400px 0;
+	margin: 0 50% 0;
 	padding: 0px 0px 0;
 	text-align: justify;
-	width: 400px;
+	width: 50%;
 }
 #body.about .header div p a {
 	color: #ffffff;
