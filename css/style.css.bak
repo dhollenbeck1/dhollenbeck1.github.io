@@ -542,7 +542,7 @@ img {
 	font-weight: normal;
 	line-height: 20x;
 	margin: 0 0px 0px;
-	padding: 0 0px 0px; 
+	padding: 0 10% 0px; 
 	text-align: center;
 	text-transform: uppercase;
 	width: 80%;
@@ -564,11 +564,11 @@ img {
 	color: #ffffff;
 	display: block;
 	font-family: Arial;
-	font-size: 18px;
+	font-size: 3vw;
 	font-weight: normal;
 	line-height: 24px;
-	margin: 0 0 0;
-	padding: 4% 30% 0;
+	margin: 10% 35% 0;
+	padding: 0 0 0;
 	text-align: justify;
 	width: 50%;
 }

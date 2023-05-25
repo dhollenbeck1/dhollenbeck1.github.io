@@ -120,9 +120,9 @@
 		margin: 0 auto;
 	}
 	#body .header div ul, #body .header div .article ul, #body .header div .sidebar ul {
-		max-width: 80%;
+		max-width: none;
 		padding: 0;
-		width: 100%;
+		width: 50%;
 	}
 	#body .header div ul li a, #body .header div .article ul li a, #body .header div .sidebar ul li a, #body .header div .sidebar ul li ul li a {
 		float: none;
