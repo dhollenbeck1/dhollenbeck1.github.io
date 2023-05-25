@@ -1,5 +1,6 @@
 /* Website template by freewebsitetemplates.com */
 body {
+	/* background-color: #FFAF33; */
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -7,11 +8,13 @@ body {
 }
 body #page {
 	background: url("../images/bg-home3.jpg") no-repeat scroll center top #000000;
-	background-size: contain;
+	background-size: 70% auto;
+	background-position-y: 150px;
 	margin: 0;
 	overflow: hidden;
 	padding: 0 0 0;
 	width: auto;
+	/* max-height: 500px; */
 	z-index: 3;
 }
 a {
@@ -187,7 +190,7 @@ img {
 	z-index: 50;
 }
 #body.home .header div h1 {
-	color: black;
+	color: white;
 	display: block;
 	float: right;
 	font-family: audiowide-regular-webfont;
@@ -195,7 +198,7 @@ img {
 	font-weight: normal;
 	line-height: 40px;
 	margin: 0px 0 0px;
-	padding: 20px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	position: relative;
 	text-align: center;
 	text-transform: uppercase;
@@ -203,7 +206,7 @@ img {
 	z-index: 60;
 }
 #body.home .header div h2 {
-	color: black;
+	color: white;
 	display: block;
 	float: right;
 	font-family: Arial;
@@ -228,7 +231,7 @@ img {
 	font-weight: normal;
 	height: 49px;
 	line-height: 49px;
-	margin: 0 200px 0 0;
+	margin: 250px 200px 0 0;
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
@@ -248,9 +251,9 @@ img {
 	font-size: 23px;
 	font-weight: normal;
 	line-height: 23px;
-	margin: 96px 0 0;
+	margin: 50px 0 0;
  *margin: 102px 0 0;/* Needed for IE8 and old versions */
-	min-height: 27px;
+	min-height: 20%;
 	padding: 17px 0 10px;
 	position: relative;
 	text-align: center;
