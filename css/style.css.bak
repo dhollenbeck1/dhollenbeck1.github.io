@@ -187,35 +187,35 @@ img {
 	z-index: 50;
 }
 #body.home .header div h1 {
-	color: #FFFFFF;
+	color: black;
 	display: block;
 	float: right;
 	font-family: audiowide-regular-webfont;
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: normal;
-	line-height: 20px;
-	margin: 100px 0 27px;
-	padding: 0 38px 0 399px;
+	line-height: 40px;
+	margin: 0px 0 0px;
+	padding: 30px 0px 0px 0px;
 	position: relative;
-	text-align: right;
+	text-align: center;
 	text-transform: uppercase;
-	width: 703px;
+	width: 960px;
 	z-index: 60;
 }
 #body.home .header div h2 {
-	color: #FFFFFF;
+	color: black;
 	display: block;
 	float: right;
 	font-family: Arial;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 18px;
-	margin: 0 0 36px;
-	padding: 0 146px 0 506px;
+	margin: 0 0 0px;
+	padding: 0 0px 0 0px;
 	position: relative;
-	text-align: right;
+	text-align: center;
 	text-transform: uppercase;
-	width: 500px;
+	width: 960px;
 	z-index: 60;
 }
 #body.home .header div a.more {
@@ -523,9 +523,7 @@ img {
 	background-size: contain;
 	margin: 0px 0px 0px;
 	min-height: 400px;
-	max-height: 100%;
 	padding: 0px 0px 0px;
-	max-width: 100%;
 }
 #body.about .header div, #body .header div {
 	margin: 0 auto;
