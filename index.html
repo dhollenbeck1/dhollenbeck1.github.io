@@ -1,641 +1,1274 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js" >
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Derek Hollenbeck</title>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://dhollenbeck1.github.io/#person",
+  "name": "Derek Hollenbeck",
+  "jobTitle": "Mechanical Engineer, Ph.D.",
+  "url": "https://dhollenbeck1.github.io/",
+  "image": "https://dhollenbeck1.github.io/assets/img/headshot_hollenbeck_derek_20250831.jpg",
+  "affiliation": { "@type": "Organization", "name": "University of California, Merced" },
+  "alumniOf": [{ "@type": "CollegeOrUniversity", "name": "Northern Illinois University" }],
+  "sameAs": [
+    "https://github.com/dhollenbeck1",
+    "https://www.linkedin.com/in/dhollenbeck2/",
+    "https://scholar.google.com/citations?user=SnecFpAAAAAJ&hl=en",
+    "https://orcid.org/0000-0002-4782-1370"
+  ],
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "ORCID",
+    "value": "0000-0002-4782-1370",
+    "url": "https://orcid.org/0000-0002-4782-1370"
+  },
+  "knowsAbout": ["Methane", "Smart sensing", "Digital twins", "Remote sensing"]
+}
+</script>
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+  <!-- End Google Tag Manager -->
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Derek Hollenbeck | Mechanical Engineer | Ph.D.</title>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CRGBSFFQ6D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-CRGBSFFQ6D');
+  </script>
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Rafal Krzysiak | Mechanical Engineer | Ph.D." />
+  <meta property="og:description" content="Mechanical Engineer | Ph.D." />
+  <meta property="og:url" content="https://rafalkrzysiak.github.io/" />
+  <meta property="og:site_name" content="Rafal Krzysiak | Mechanical Engineer | Ph.D." />
+  <meta property="article:publisher" content="https://rafalkrzysiak.github.io/" />
+  <meta property="og:image" content="https://rafalkrzysiak.github.io/examples/preview.png" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@rafal_krzysiak" />
+  <meta name="twitter:title" content="Mechanical Engineer | Ph.D." />
+  <meta name="twitter:description" content="Mechanical Engineer | Ph.D." />
+  <meta name="twitter:url" content="https://twitter.com/rafal_krzysiak" />
+  <meta name="author" content="Rafal Krzysiak" />
+  <meta name="description" content="Mechanical Engineer | Ph.D." />
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+  <!-- Google Site Verification for indexing -->
+  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
 </head>
 
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only"> <!-- "hide-on-small only" -->
+    <ul class="side-nav fixed section table-of-contents">
 
-<body id="top">
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/JPL_rover_selfie.JPG" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
 
-    
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i><span>Publications</span>
+        </a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <a aria-label="Open Rafal's resume in a new tab" href="https://rafalkrzysiak.github.io/assets/resume/Rafal_Krzysiak_resume.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Rafal's CV in a new tab" href="https://rafalkrzysiak.github.io/assets/resume/Rafal_Krzysiak_CV.pdf" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>CV</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Rafal
+        Krzysiak</a><span class="black-text">Mechanical Engineer</span>
     </div>
+  </nav>
 
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Publications section" href="#publications" class="waves-effect waves-dark teal-text">
+          <i class="mdi-av-my-library-books small"></i><span>Publications</span>
+        </a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
 
-    <!-- page wrap
-    ================================================== -->
-    <div id="page" class="s-pagewrap ss-home">
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Rafal's Resume in a new tab"
+          href="https://drive.google.com/file/d/1lBNrGFbvctsAONBZXvDSIo4ITjMrR42_/view?usp=drive_link" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Open Rafal's CV in a new tab"
+          href="https://drive.google.com/file/d/1S4O4hBAQ1BXXkxZ_EIWyhxLu3VZAXe0x/view?usp=drive_link" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>CV</span></a>
+      </li>
+    </ul>
+  </nav>
 
-
-        <!-- # site header 
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="row s-header__inner width-sixteen-col">
-
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="index.html">
-                            <img src="images/logo.svg" alt="Homepage">
-                        </a>
-                    </div>
-
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div> <!-- end s-header__block -->
-
-                <nav class="s-header__nav">
-    
-                    <ul class="s-header__menu-links">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Services</a></li>
-                        <li><a href="index.html">Journal</a></li>
-                        <li><a href="index.html">Contact</a></li>
-                    </ul> <!-- s-header__menu-links -->
-
-                    <div class="s-header__contact">
-                        <a href="index.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
-                    </div> <!-- s-header__contact -->
-    
-                </nav> <!-- end s-header__nav -->
-
-            </div> <!-- end s-header__inner -->
-
-        </header> <!-- end s-header -->
-
-
-        <!-- # site main content
-        ================================================== -->
-        <section id="content" class="s-content">
-
-            <!-- intro
-            ----------------------------------------------- -->
-            <section id="intro" class="s-intro">
-
-                <div class="row s-intro__content width-sixteen-col">
-
-                    <div class="column lg-12 s-intro__content-inner grid-block">
-                        
-                        <div class="s-intro__content-text">
-                            <div class="s-intro__content-pretitle text-pretitle">Hello, I'm Derek Hollenbeck</div>
-                            <h1 class="s-intro__content-title">
-                            I work on mitigating methane emissions by solving the measurement problem.
-                            </h1>
-                        </div> <!-- s-intro__content-text -->
-
-                        <div class="s-intro__content-media"> 
-                            <div class="s-intro__content-media-inner">                               
-                                <img src="images/intro-bg2.jpg" srcset="images/intro-bg2.jpg 1x, images/intro-bg2@2x.jpg 2x" alt="">
-                                <div class="lines">                               
-                                    <span></span>                                  
-                                </div>
-                            </div>
-                        </div> <!-- s-intro__content-media -->                      
-
-                        <div class="s-intro__scroll-down">
-                            <a href="#about" class="smoothscroll">
-                                <div class="scroll-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                                </div>
-                                <span>Scroll for more</span>
-                            </a>
-                        </div> <!-- s-intro__scroll-down -->
-                        
-                    </div> <!-- s-intro__content-inner -->
-
-                </div> <!-- s-intro__content -->
-
-            </section> <!-- end s-intro -->
-
-            <!-- about
-            ----------------------------------------------- -->
-            <section id="about" class="s-about target-section">
-
-                <div class="row s-about__content width-sixteen-col">
-                    <div class="column grid-block grid-section-split">
-
-                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
-
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">About</div>                           
-                            <h2 class="text-display-title">
-                            Smart sensing with Digital Twins and sUAS.
-                            </h2>                           
-                        </div> <!-- end section-header -->
-
-                        <div class="s-about__content-main grid-section-split__primary">
-                            <p class="attention-getter">
-                            Smart sensing begins with an integrated approach to deploying sensors in 
-							the field and having a thorough understanding of the environmental physics.
-							Using Digital Twins to represent the physical system, the sensors can be deployed 
-							in locations where probability of detection is high.
-							Additionally, by sampling in areas where the sensors receive sufficiently rich data, 
-							the Digital Twin can be behavior matched and updated to better reflect 
-							the current conditions of the physical system.
-                            </p>
-
-                            <!-- <p class="attention-getter">
-                            Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
-                            Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat 
-                            corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus 
-                            nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis 
-                            aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.
-                            </p>
-
-                            <p class="attention-getter">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
-                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
-                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
-                            iure, eos consequatur est deleniti cum id aliquid neque.
-                            </p> -->
-                        </div> <!-- end s-about__content-main -->
-
-                        <div class="s-about__content-btn grid-section-split__bottom">
-                            <a href="index.html" class="btn btn--stroke u-fullwidth">More About Me</a>
-
-                            <ul class="s-about__social social-list">
-                                <li>
-                                    <a href="https://www.facebook.com/derek.hollenbeck.1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-                                        <span class="u-screen-reader-text">Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/DerekHollenbec7">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                                        <span class="u-screen-reader-text">Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/forealness/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
-                                        <span class="u-screen-reader-text">Instagram</span>
-                                    </a>
-                                </li>
-                                <!-- <li>
-                                    <a href="#0">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></svg>
-                                        <span class="u-screen-reader-text">LinkedIn</span>
-                                    </a>
-                                </li> -->
-								<li>
-									<a href="https://www.linkedin.com/in/dhollenbeck2/" class="icon linkedin" title="LinkedIn">
-										<svg viewBox="0 0 512 512">
-										<path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/>
-										</svg><!--[if lt IE 9]><em>LinkedIn</em><![endif]-->
-									</a>
-								</li>
-                            </ul> <!-- end s-footer__social -->
-                        </div> <!-- end s-about__content-btn -->
-                    
-                    </div> <!-- content-inner -->
-                </div>
-                
-            </section> <!-- end s-about -->
-
-            <!-- expertise
-            ----------------------------------------------- -->
-            <section id="expertise" class="s-expertise">
-
-                <div class="row s-expertise__content width-sixteen-col">
-                    <div class="column xl-12 grid-block grid-section-split">
-
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Expertise</div>                           
-                            <h2 class="text-display-title">
-                            My key areas of expertise.
-                            </h2>     
-                            
-                            <p class="lead">
-                            Having a mechanical engineering degree, I have a broad general background within 
-							controls, dynamics, strength of materials, solid mechanics, thermodynamics, heat transfer, mechatronics, and circuit theory. 
-							Of these topics, during my graduate career, I have speciallized on: dynamics, controls, and fluid mechanics. 
-							This includes developments within Digital Twins and applications to smart sensing.
-                            </p>
-                        </div> <!-- end section-header -->
-
-                        <div class="s-expertise__content-main grid-section-split__primary">
-
-                            <div class="grid-list-items list-items show-ctr">
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Dynamics and Controls</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        I have experience with nonlinear and robust control theory. 
-										This includes a fundemental undstanding of dynamical systems and designing controllers for optimal control. 
-										Additionally, I have had experience with fractional order control and applications.
-                                        </p>
-                                    </div>
-                                </div> <!-- list-item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Fluid Mechanics and Computation</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        I have experience with development and simulation of fluid mechanics systems. 
-										Primarily, I focus on problems related to methane emissions using both deterministic and Lagrangian based techniques.
-                                        </p>
-                                    </div>
-                                </div> <!-- list-expertise__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Twins</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        I have developed custom software to explore the use of Digital Twins with environmental sensing (book coming soon). 
-                                        </p>
-                                    </div>
-                                </div> <!-- list-expertise__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Field Campaigns and Piloting</h3>
-                                    </div>
-                                    <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        As a FAA Part 107 sUAS license holder and researcher, I have had extensive experience flying and participating in multiple field campaigns during my graduate student career.
-										Noteably, I have participated in the Alberta Methane Field Challenge, as well as, flown campaigns at the Methane Emission Technology Evaluation Center (METEC). 
-										I have had experience with multi-rotor, fixed-wing, and hybrid-VTOL aircraft. 
-                                        </p>
-                                    </div>
-                                </div> <!-- list-expertise__item -->
-
-                            </div> <!-- grid-list-items -->
-                        </div> <!-- end s-expertise__content-main -->
-
-                        <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="index.html" class="btn btn--stroke u-fullwidth">View All Services</a>
-                        </div> <!-- end s-about__content-btn -->
-
-                    </div> <!-- end grid-block-->
-                </div> <!-- end s-expertise__content -->
-
-            </section> <!-- end s-expertise -->
-
-            <!-- clients
-            ----------------------------------------------- -->
-            <section id="clients" class="s-clients">          
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 grid-block grid-section-split">
-                    
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Collaborators and Work Experience</div>                           
-                            <h2 class="text-display-title">
-                            I have had the privilege of working with these incredible companies and people.
-                            </h2>       
-                        </div> <!-- end section-header -->
-                    
-                        <div class="grid-section-split__primary">
-                            <p class="lead">
-                            During my graduate research career and beyond I have had the opportunity to work with many smart and talented individuals.
-                            </p>   
-
-                            <p>
-                            I am forever learning and grateful.
-                            </p>
-                        </div> <!-- end grid-section-split__primary -->
-                    
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12">
-                    
-                        <div class="clients-list">                            
-                            <div class="clients-list__item">
-                                <a href="https://www.seekops.com/">
-                                    <img src="images/clients/seekops-logo.png" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://aerometrix.ca/">
-                                    <img src="images/clients/aerometrics-logo.png" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://www.nysearch.org/">
-                                    <img src="images/clients/nysearch-logo.png" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="https://www.prci.org/">
-                                    <img src="images/clients/prci-logo.png" alt="">
-                                </a>
-                            </div>
-                            
-                        </div> <!-- end clients-list -->
-
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-                                
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 testimonials">
-                    
-                        <div class="swiper-container testimonials__slider home-slider">
-
-                            <!-- <div class="swiper-wrapper">
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>John Rockefeller</strong>
-                                            <span>Standard Oil Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                    Voluptas tempore rem. Laudantium quia consequatur molestias.
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>Andrew Carnegie</strong>
-                                            <span>Carnegie Steel Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni.  
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
-                                    Nisi dolores quaerat fuga rem nihil nostrum. Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>Henry Ford</strong>
-                                            <span>Ford Motor Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>John Morgan</strong>
-                                            <span>JP Morgan & Co.</span>
-                                        </cite>
-                                    </div>
-                                </div> 
-                            </div> <!-- end swiper-wrapper -->  -->
-
-                            <div class="swiper-pagination"></div>
-
-                        </div> <!--end testimonials__slider -->                    
-                    
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-
-
-            </section> <!-- end s-clients -->            
-
-        </section> <!-- s-content-->
-
-        <!-- # cta
-        ================================================== -->
-        <section id="cta" class="s-cta">
-
-            <div class="row row-x-center text-center">
-                <div class="column xl-8 lg-12">
-
-                    <div class="s-cta__content">
-                        <h2 class="text-display-title">
-                        Lets get in touch.
-                        </h2>
-                        <p class="lead">
-                        I am always open to collaborate and advance our capabilities in methane emission research.
-						</p>
-                        <a href="index.html" class="btn btn--primary">Contact me</a>
-                    </div>
-
-                </div>
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Rafal Krzysiak.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5>Self-driven, quick starter, passionate mechanical engineer with a curious mind who enjoys solving complex and challenging real-world problems.</h5>
             </div>
 
-        </section> <!-- end s-cta -->
+            <!-- Carousel Slideshow -->
+            <div class="carousel-container">
+              <img class="carousel-fade active" src="/assets/img/IEEE_HMS_Headshot_pic_500x500.jpg" />
+              <img class="carousel-fade" src="/assets/img/JPL_rover_selfie_500x500.jpg" />
+              <img class="carousel-fade" src="/assets/img/BigTelescope_500x500.jpg" />
+              <img class="carousel-fade" src="/assets/img/MediumTelescope_500x500.png" />
 
-        <!-- # journal
-        ================================================== -->
-        <section id="journal" class="s-journal">
+              <!-- Arrows -->
+              <a class="carousel-prev">&#10094;</a>
+              <a class="carousel-next">&#10095;</a>
 
-            <div class="row s-journal__content width-sixteen-col">
-                <div class="column xl-12 grid-block">
-
-                    <div class="grid-full section-header text-center">
-                        <div class="text-pretitle">Recent Articles</div>                           
-                        <h2 class="text-display-title">
-                        Latest articles from my blog.
-                        </h2>  
-                    </div> <!-- end section-header --> 
-
-                    <div class="grid-full s-journal__content-main grid-list-items">
-
-                        <!-- <div class="grid-list-items__item blog-card">
-                            <div class="blog-card__header">
-                                <div class="blog-card__cat-links">
-                                    <a href="https://www.dreamhost.com/r.cgi?287326">Sponsored</a>
-                                </div>
-                                <h3 class="blog-card__title"><a href="https://www.dreamhost.com/r.cgi?287326">Need Web Hosting for Your Websites?</a></h3>
-                            </div>
-                            <div class="blog-card__text">
-                                <p>
-                                Need hosting for your website? We would highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
-                                Enjoy 100% in-house support, guaranteed performance and uptime, 1-click installs, and a super-intuitive control 
-                                panel to make managing your websites and projects easy. <a href="https://www.dreamhost.com/r.cgi?287326">Sign up</a> now to get started.
-                                </p>
-                            </div>
-                        </div> 
-                        <div class="grid-list-items__item blog-card">
-                            <div class="blog-card__header">
-                                <div class="blog-card__cat-links">
-                                    <a href="blog.html">Productivity</a>
-                                </div>
-                                <h3 class="blog-card__title"><a href="single.html">5 Marketing Productivity Apps for Your Team</a></h3>
-                            </div>
-                            <div class="blog-card__text">
-                                <p>
-                                Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
-                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                </p>
-                            </div>
-                        </div> 
-                        <div class="grid-list-items__item blog-card">
-                            <div class="blog-card__header">
-                                <div class="blog-card__cat-links">
-                                    <a href="blog.html">SEO</a>
-                                </div>
-                                <h3 class="blog-card__title"><a href="single.html">7 SEO Factors to Consider for Better Website Ranking</a></h3>
-                            </div>
-                            <div class="blog-card__text">
-                                <p>
-                                Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                </p>
-                            </div>
-                        </div> 
-                        <div class="grid-list-items__item blog-card">
-                            <div class="blog-card__header">
-                                <div class="blog-card__cat-links">
-                                    <a href="blog.html">Productivity</a>
-                                </div>
-                                <h3 class="blog-card__title"><a href="single.html">5 Effective Web Design Principles</a></h3>
-                            </div>
-                            <div class="blog-card__text">
-                                <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ullam et laborum aperiam. 
-                                Dignissimos quae voluptatibus ullam esse sapiente fugiat, rerum labore cupiditate obcaecati 
-                                dolore necessitatibus id magni rem officia dolor nam sit laudantium. Quo eaque eveniet quibusdam unde. 
-                                </p>
-                            </div>
-                        </div> --> 
-
-                    </div> <!-- end grid-list-items -->
-
-                </div> <!-- end grid-block-->
-            </div> <!-- end s-journal__content -->
-
-        </section> <!-- end s-journal -->
-
-
-        <!-- # footer 
-        ================================================== -->
-        <footer class="s-footer">
-            <div class="row s-footer__content">
-                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
-                    <h3>About Derek</h3>
-                    <p>
-                    I obtained my B.Sc. and Ph.D. degrees in Mechanical Engineering from University of California, 
-					Merced in 2016 and 2023, respectively. My Ph.D. focus was primarily on detection, localization, 
-					and quantification of methane emissions using drones. I have interests in Digital Twin technology, 
-					small unmanned aircraft systems (sUAS), fluid dynamics (& CFD), control theory, mechatronics, 
-					dynamical systems and fractional calculus.
-                    </p>               
-                </div>                
-                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
-                    <h3>Site Links</h3>
-                    <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">Services</a></li>
-                        <li><a href="index.html">Journal</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="index.html">Contact</a></li>
-                        <!-- <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li> -->
-                    </ul>
-                </div>
-                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
-                    <h3>CMERI Newsletter</h3>
-
-                    <p>
-                    Comming soon
-                    </p>
-
-                    <div class="subscribe-form">
-                        <form id="mc-form" class="mc-form">
-                            <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
-                            <!-- <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary btn--small u-fullwidth"> -->
-                            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
-                            <div class="mc-status"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>    
-            
-            <div class="row s-footer__bottom">
-                <div class="column xl-6 lg-12">
-                    <ul class="s-footer__social social-list">
-                        <li>
-                                    <a href="https://www.facebook.com/derek.hollenbeck.1">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
-                                        <span class="u-screen-reader-text">Facebook</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/DerekHollenbec7">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z"></path></svg>
-                                        <span class="u-screen-reader-text">Twitter</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/forealness/">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
-                                        <span class="u-screen-reader-text">Instagram</span>
-                                    </a>
-                                </li>
-                                <!-- <li>
-                                    <a href="#0">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path></svg>
-                                        <span class="u-screen-reader-text">LinkedIn</span>
-                                    </a>
-                                </li> -->
-								<li>
-									<a href="https://www.linkedin.com/in/dhollenbeck2/" class="icon linkedin" title="LinkedIn">
-										<svg viewBox="0 0 512 512">
-										<path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/>
-										</svg><!--[if lt IE 9]><em>LinkedIn</em><![endif]-->
-									</a>
-								</li>
-                    </ul> <!-- end s-footer__social -->
-                </div>
-                <div class="column xl-6 lg-12">
-                    <p class="ss-copyright">
-                        <span>© Copyright Derek Hollenbeck 2024</span> 
-                        <!-- <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span> -->
-                    </p>
-                </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
-                    </a>
-                </div> <!-- end ss-go-top -->
+              <!-- Dots -->
+              <div class="carousel-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+              </div>
             </div>
-            
-        </footer> <!-- end s-footer -->
 
-    </div> <!-- end page-wrap -->
+            <!-- quick cred chips -->
+            <ul class="hero-meta">
+              <li><i class="fa fa-rocket" aria-hidden="true"></i> NASA Jet Propulsion Laboratory experience</li>
+              <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Ph.D. from UC Merced</li>
+              <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> MSME from NIU</li>
+              <li><i class="fa fa-file-text-o" aria-hidden="true"></i> <span id="pubCount">—</span> publications</li>
+            </ul>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/rafal-krzysiak-864742b1/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/rafalkrzysiak/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+               <a href="https://scholar.google.com/citations?user=OINhV_MAAAAJ&hl=en" target="_blank" rel="me noopener">
+                <button class="icon-btn scholar" aria-label="Google Scholar">
+                  <i class="ai ai-google-scholar"></i>
+                </button>
+              </a>
+              <a href="https://orcid.org/0009-0005-0588-9077" target="_blank" rel="me noopener">
+                <button class="icon-btn orcid" aria-label="ORCID">
+                  <i class="ai ai-orcid"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+        <!-- <blockquote>
+          <h2>
+            A Software Developer with a passion for Backend Development and Artificial Intelligence.
+
+          </h2>
+        </blockquote> -->        
+        <p>
+          I earned a Ph.D. in Mechanical Engineering at the University of California, Merced, where my research focuses on Explainable Artificial Intelligence (XAI) empowered sensors and smart sensing. My work bridges advanced AI with real-world applications in both human health and planetary health—ranging from explainable cardiovascular disease prediction and prevention to satellite- and drone-based Earth remote sensing.
+
+          In addition to my academic research, I worked as a Mechanical Engineer subcontractor at NASA’s Jet Propulsion Laboratory. There, I designed, analyzed, simulated, and built next-generation instruments that support planetary science missions on Earth and beyond.
+
+          My academic journey began with a Bachelor’s degree in Mechanical Engineering, specializing in Mechatronics and Robotics, at Northern Illinois University—where I served as Vice President of the Mars Rover Team and was inducted into the Honors Society. I continued on to earn my Master of Science in Mechanical Engineering with a focus on Dynamical Systems and Control before pursuing my Ph.D. in Mechanical Engineering focused on smart health monitoring using XAI.
+
+          I am passionate about developing intelligent sensing systems and digital twins that solve complex, real-world problems impacting both people and the planet.    
+        </p>
+        <p>
+          <ul>
+            <li><b>CAE Software:</b> Solidworks, NASTRAN, ANSYS, COMSOL</li>
+            <li><b>Languages:</b> Python, MATLAB, C, C++, Bash</li>
+            <li><b>Databases:</b> MongoDB</li>
+            <li><b>Libraries:</b> NumPy, CuPy, Pandas, OpenCV</li>
+            <li><b>Frameworks:</b> Flask, Django, Keras, TensorFlow, PyTorch, ROS/ROS2</li>
+          </ul>
+          
+        </p>
+          
+        <!-- <p>
+          
+          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
+        </p> -->
+        <p>
+          Pursuing a challenging position that integrates mechanical engineering, controls, embedded systems, and AI, with strong opportunities for professional growth.
+        </p>
+        <!-- <p>
+          Another Paragraph
+        </p>  -->
+        <!-- <p>
+        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
+          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
+          aria-label="Navigate to the Full Stack React homepage"
+          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
+          aria-label='Navigate to the article "Scalable CSS"'
+          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
+        </p> -->
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+    <h3 class="page-title white-text teal">Experience</h3>
+    <div class="container">
+
+      <!-- JPL Subcontract Experience -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s12 m2">
+              <a href="https://www.jpl.nasa.gov/" target="_blank">
+                <img alt="NASA JPL logo" src="/assets/img/jpl_logo.png" class="responsive-img center-block" />
+              </a>
+            </div>
+            <div class="col s12 m10">
+              <p>
+                <span class="card-title">
+                  <a href="https://www.jpl.nasa.gov/" target="_blank" class="teal-text hoverline">NASA JPL</a>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="role brown-text text-darken-2">Mechanical Engineer – Subcontract</div>
+          <ul>
+            <li>Performed FEA thermal and structural analysis on a flight instrument destined for the ISS to verify performance and survivability under launch conditions.</li>
+            <li>Designed, built, and operated a tunable laser spectrometer to quantify total water concentration in lunar regolith for NASA’s Artemis program.</li>
+            <li>Built a digital twin (Level-II) of a miniature tunable laser spectrometer for ISS water quality monitoring and validated it in an environmental chamber.</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <span>Jan 2022 – Jan 2024 | Pasadena, CA</span>
+        </div>
+      </div>
+
+      <!-- JPL Intern Experience -->
+      <div class="card">
+        <div class="card-content">
+          <div class="row">
+            <div class="col s12 m2">
+              <a href="https://www.jpl.nasa.gov/" target="_blank">
+                <img alt="NASA JPL logo" src="/assets/img/jpl_logo.png" class="responsive-img center-block" />
+              </a>
+            </div>
+            <div class="col s12 m10">
+              <p>
+                <span class="card-title">
+                  <a href="https://www.jpl.nasa.gov/" target="_blank" class="teal-text hoverline">NASA JPL</a>
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="role brown-text text-darken-2">Mechanical Engineering Intern</div>
+          <ul>
+            <li>Improved 3D mechanical designs and simulation workflows for instruments mounted on UAVs for planetary science missions.</li>
+            <li>Designed and tested power distribution circuitry for gas sensors mounted on drones.</li>
+            <li>Integrated methane gas sensors with robotic platforms using ROS.</li>
+            <li>Collaborated with Chevron to enhance and field-test a robotic H₂S sensor with wireless telemetry.</li>
+            <li>Worked with NASA AFRC on mechanical substantiation of a next-gen fire detection instrument.</li>
+            <li>Performed thermal analysis of airborne radar systems for planetary Earth science missions.</li>
+          </ul>
+        </div>
+        <div class="card-action">
+          <span>Summers 2018, 2019, 2024 | Pasadena, CA</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+    <h3 class="page-title white-text teal">Projects</h3>
+    <div class="container">
+      <div class="row">
+        <!-- PINN PCB Heat Project -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Heat Distribution Simulation" src="/assets/img/2D_Heat_PINN.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">2D PINN for PCB Heat Distribution<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip orange white-text">Maintained</span>
+              </div>
+              <p>
+                A physics-informed neural network that simulates steady-state heat transfer across a PCB board with localized power sources.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> TensorFlow, NumPy, Matplotlib, Python</li>
+                <li>Implements a 2D physics-informed neural network constrained by the heat equation ∇²T + Q = 0.</li>
+                <li>Models real-world boundary conditions for power-dissipating electronic components and fixed ambient edges.</li>
+                <li>Trained with automatic differentiation to satisfy the PDE residuals and boundary conditions.</li>
+                <li>Produces visual heatmaps and temperature profiles across the PCB domain.</li>
+              </ul>
+              <div class="card-action">
+                <!-- Optional GitHub link -->
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/pinn-pcb-heat" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Thermal imager project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Lab Benchtop Thermal Imager" src="/assets/img/Thermal_hand.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Lab Benchtop Thermal Imager<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip green white-text">Completed</span>
+              </div>
+              <p>
+                A Raspberry Pi-powered thermal imaging system that visualizes real-time heat distribution across surfaces using an infrared sensor and touchscreen interface.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Raspberry Pi 4B, Adafruit MLX90640, Python, OpenCV, NumPy</li>
+                <li>Real-time thermal imaging system using a 32×24 infrared sensor with a 55° field of view.</li>
+                <li>Displays temperature heatmaps on a 7" capacitive touchscreen with optional user interaction.</li>
+                <li>Captures and visualizes temperature distributions for electronics, surfaces, and environments.</li>
+                <li>Optimized for portable benchtop use with touchscreen controls and live interpolation.</li>
+              </ul>
+              <div class="card-action">
+                <!-- Optional GitHub link -->
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/rafalkrzysiak/Benchtop-Thermal-Imager/tree/main" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Methane Plume Detection project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Methane plume detection from satellite" src="/assets/img/Methane_plume.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Methane Detection from Sentinel-2<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip green white-text">Completed</span>
+              </div>
+              <p>
+                Detecting and quantifying methane super-emitter plumes from Sentinel-2 satellite imagery using deep learning.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, PyTorch, Rasterio, NumPy, Matplotlib</li>
+                <li>Utilizes Sentinel-2 L2A satellite data, specifically SWIR bands (B11 & B12) sensitive to methane absorption.</li>
+                <li>Applies a deep learning model to segment and quantify high-concentration methane plumes from point sources.</li>
+                <li>Addition of embedding synthetic methane plumes using gaussian plume model with Ornstein–Uhlenbeck process.</li>
+                <li>Implements Grad-CAM for model interpretability, visualizing the spatial features driving the detection.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/sentinel2-methane-detection" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Multispectral Octorotor UAV project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Octorotor drone with multispectral cameras" src="/assets/img/Kraken_Drone.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Multispectral Octorotor UAV<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip green white-text">Completed</span>
+              </div>
+              <p>
+                An octorotor drone custom-built for high-resolution multispectral imaging to monitor environmental and agricultural health.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Pixhawk Orange Cube+, Mission Planner, MapIR Cameras, Python</li>
+                <li>Features an 8-rotor (octorotor) configuration for heavy lift capacity and flight redundancy.</li>
+                <li>Powered by a Pixhawk Orange Cube+ flight controller for robust autonomous navigation.</li>
+                <li>Equipped with MapIR multispectral cameras to capture data for planetary health and vegetation indices (e.g., NDVI).</li>
+                <li>Utilizes Mission Planner for flight planning, real-time telemetry, and data logging.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/octorotor-uav" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UAV-Based Prescribed Fire Control project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Simulation of prescribed fire spread and temperature" src="/assets/img/fire_temp_spread.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">UAV-Based Prescribed Fire Control<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A digital twin framework for modeling and controlling prescribed fires using UAVs as integrated sensors and actuators.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, Physics-Based Modeling, UAV Control Systems, Multispectral & Thermal Sensors</li>
+                <li>Proposes a hybrid digital twin framework for real-time fire behavior prediction.</li>
+                <li>Integrates physics-based fire propagation models with simulated UAV sensor data (thermal & multispectral).</li>
+                <li>Utilizes UAVs as both sensors (for data collection) and actuators (for control) in a closed loop.</li>
+                <li>Aims to improve the safety, precision, and effectiveness of prescribed fire management.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/prescribed-fire-control" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fractional-Order Matched Filter project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Methane plume detection using matched filters" src="/assets/img/Total_MF_plume_comparison.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Fractional-Order Matched Filter (FOMF)<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A novel signal processing algorithm using fractional calculus to detect methane plumes in noisy hyperspectral satellite data (AVIRIS-ng).
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, Fractional Calculus, AVIRIS-ng, NumPy</li>
+                <li>Proposes a Fractional-Order Matched Filter (FOMF) to overcome the limitations of standard filters.</li>
+                <li>Designed to handle the heavy-tailed, non-Gaussian noise common in real-world hyperspectral data.</li>
+                <li>Successfully identified methane plumes from AVIRIS-ng imagery where traditional integer-order filters failed.</li>
+                <li>Achieved a superior ROC Area Under the Curve (AUC) of 0.72, validating its improved sensitivity and accuracy.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/fomf-methane-detection" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- XCardio-Twin project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="ECG signal analysis for digital twin" src="/assets/img/ECG_sim.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">XCardio-Twin: Explainable CV Monitoring<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                An explainable digital-twin framework that analyzes ECG data to predict cardiovascular status using machine learning.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, NeuroKit2, Heartpy, Scikit-learn, SHAP</li>
+                <li>Presents an explainable digital twin (XAI) framework for cardiovascular health monitoring.</li>
+                <li>Extracts key features (e.g., heart rate variability) from ECG signals using NeuroKit2 and Heartpy.</li>
+                <li>Employs machine learning to predict cardiovascular status, achieving 90.08% accuracy.</li>
+                <li>Uses SHAP (Shapley Additive Explanations) to provide transparent insights into the model's predictions.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/XCardio-Twin" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- XAIoT for Smart Health Monitoring project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="XAI feature importance for a health monitoring DNN" src="/assets/img/feature_importance_dnn.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">XAIoT for Smart Health Monitoring<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A PhD research framework using Explainable AI (XAI) and IoT to interpret physiological data from edge devices.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, TensorFlow Deep Neural Networks (DNN), XAI (SHAP), Edge Devices, IoT</li>
+                <li>Developed a XAIoT (Explainable AI + IoT) framework for health monitoring.</li>
+                <li>Applies DNNs on edge devices for portable, real-time analysis of physiological data (e.g., ECG, HRV).</li>
+                <li>Uses XAI to provide transparent, interpretable insights into model predictions for patients and clinicians.</li>
+                <li>This research includes the 'XCardio-Twin' digital twin framework for cardiovascular health.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/phd-xai-health" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FOSGD & XAI for Planetary Health project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="XAI outputs (GradCAM, SmoothGrad) for land use classification" src="/assets/img/XAI_output.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">FOSGD & XAI for Planetary Health<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                An XAI framework using Fractional-Order SGD and multi-task learning to monitor planetary health from EuroSAT imagery.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, TensorFlow, Quantus, XAI (GradCAM, SmoothGrad)</li>
+                <li>Implements a novel Fractional-Order Stochastic Gradient Descent (FOSGD) optimizer, achieving 96% accuracy.</li>
+                <li>Uses multi-task learning on EuroSAT data to classify land use and map environmental indices (NDVI, NDWI).</li>
+                <li>Applies XAI techniques (GradCAM, SmoothGrad) to provide interpretable insights into the model's decisions.</li>
+                <li>Evaluates the reliability of the XAI methods using the Quantus framework.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/fosgd-planetary-health" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UAV Methane Sensing project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Methane sensing drone in flight" src="/assets/img/ch4drone.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Optimal UAV Methane Sensing Platform<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A UAV platform using a digital twin and observability Gramian to optimally sense and estimate methane emission sources.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> sUAS, Python, Gaussian Plume Model, Tikhonov Regularization</li>
+                <li>Develops a low-cost sUAS for mobile methane sensing and source estimation.</li>
+                <li>Uses a Gaussian plume model as a digital twin for real-time simulation of methane dispersion.</li>
+                <li>Implements an optimal sensing path based on the observability Gramian to maximize estimation accuracy.</li>
+                <li>Estimates emission source location and strength using a Source Receptor Matrix (SRM) method.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/uav-methane-sensing" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- VTOL Cognitive Battery Monitoring project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Hybrid VTOL drone with cognitive battery monitoring" src="/assets/img/leapfrog.JPG" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Cognitive Battery Monitoring for VTOL UAV<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A cognitive digital twin that monitors battery health (SOC, RUL) to ensure safe landings for long-endurance VTOL drones.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Digital Twin, Python, VTOL sUAS, Coulomb Counting</li>
+                <li>Develops a Cognitive Battery Monitoring System (CBMS) for a hybrid VTOL fixed-wing sUAS.</li>
+                <li>Employs a Digital Twin model to behavior-match battery discharge curves.</li>
+                <li>Estimates battery State of Charge (SOC) and Remaining Useful Life (RUL) in real-time.</li>
+                <li>Provides early warning recommendations for safe landings on long-endurance missions.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/vtol-cbms" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- UAV Archaeological Survey project and platform -->
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Drone conducting an archaeological survey" src="/assets/img/Drone_archeology_mission.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">UAV Archaeological Survey<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip green white-text">Completed</span>
+              </div>
+              <p>
+                A UAV-based archaeological survey mission using multispectral imaging to uncover and map historical features.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Octorotor UAV, Mission Planner, Multispectral Cameras, Agisoft Metashape, Python</li>
+                <li>Conducted autonomous, grid-based flight patterns over an archaeological site to ensure complete data capture.</li>
+                <li>Utilized multispectral sensors to detect subtle variations in vegetation health and soil composition.</li>
+                <li>Processed imagery into orthomosaics and vegetation indices (like NDVI) to reveal subsurface structures and buried features invisible to the naked eye.</li>
+                <li>Provided high-resolution, non-invasive data to archaeologists for site mapping and analysis.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/uav-archaeology-survey" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card medium">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img alt="Wildfire DRL Agent Explanation" src="/assets/img/Wildfire_DRL_agent.png" style="height: 100%; width: 100%" class="activator" />
+            </div>
+            <div class="card-content">
+              <span class="card-title activator teal-text hoverline">Explainable DRL Wildfire Twin<i class="mdi-navigation-more-vert right"></i></span>
+              <div style="margin-bottom: 8px;">
+                <span class="chip blue white-text">Published</span>
+              </div>
+              <p>
+                A digital twin environment training an Explainable Deep Reinforcement Learning (DRL) agent to coordinate drone swarms for wildfire suppression.
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text"><small>Details</small><i class="mdi-navigation-close right"></i></span>
+              <ul>
+                <li><b>Tools:</b> Python, TensorFlow, Grad-CAM, Reinforcement Learning</li>
+                <li>Built a high-fidelity digital twin to simulate wildfire spread and suppression dynamics.</li>
+                <li>Trains a DRL agent to autonomously control drone swarms using RGB and temperature inputs.</li>
+                <li>Integrates XAI (Saliency & Grad-CAM) to visualize the agent's decision-making logic.</li>
+                <li>Demonstrates the agent's ability to identify and prioritize active fire fronts for containment.</li>
+              </ul>
+              <div class="card-action">
+                <a aria-label="Visit the GitHub repo for project" href="https://github.com/YOUR_USERNAME/wildfire-drl-twin" target="_blank" data-position="top" data-tooltip="View Source" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped">
+                  <i class="fa fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Publications -->
+  <section id="publications" class="section scrollspy">
+    <h3 class="page-title white-text teal">Publications</h3>
+    <a href="https://scholar.google.com/citations?user=OINhV_MAAAAJ&hl=en" target="_blank" class="btn-flat white-text" style="margin-left:8px">
+      <i class="ai ai-google-scholar"></i> Google Scholar
+    </a>
+    <a href="https://orcid.org/0009-0005-0588-9077" target="_blank" class="btn-flat white-text" style="margin-left:8px">
+      <i class="ai ai-orcid"></i> ORCID
+    </a>
+    <div class="container">
+      <div class="card">
+        <div class="card-content">
+          <ol class="flow-text">
+            <li>R. Krzysiak, “Smart Health Monitoring Using Explainable AI - From Human Physiology to Earth Remote Sensing", <i>Ph.D. Thesis, University of California, Merced</i>, 2025.</li>
+            <li>R. Krzysiak and C. Yu, “Tiered IoT Device Strategy for Supraventricular Tachycardia Detection with Explainable AI and Patient Engagement,” <i>Abstract, AIMed 2025</i>.</li>
+            <li>S. Giri, D. Hollenbeck, R. Krzysiak and Y. Chen, “PHANTOM: Physics-informed Hyperspectral Adversarial Network for Transformer-Optimized Methane Detection”, <i>Submitted, American Control Conference (ACC 2026)</i>.</li>
+            <li>R. Krzysiak, J. Ramirez and Y. Chen, “TTL: An Open Source DIY Thermo Twin Lab for Smart Thermal Process Condition Monitoring by Physics-Informed Machine Learning”, <i>International Conference on Mechanical and Electrical Engineering (ICMEE 2025)</i>.</li>
+            <li>R. Krzysiak, S. Giri and Y. Chen, “Optimal Methane Plume Extraction of Hyperspectral Imagery Using Fractional Order Matched Filter,” <i>IFAC Conference on Fractional Differentiation and its Applications (ICFDA 2025)</i>.</li>
+            <li>F. Winiberg, M. Fradet, K. Schwarm, I. Sanders, M. Bryk, V. Cretu, R. Krzysiak, K. Mansour, N. Tallarida, J. Wallace, P. Dodd, A. Noell, and L. Christensen, “Tunable Laser Spectrometer for the Miniaturized Total Organic Carbon Analyzer”, <i>Acta Astronautica</i>.</li>
+            <li>D. Hollenbeck, R. Krzysiak, et al., “Developing An Optimal Mobile Measurement sUAS using Digital Twins and the Observability Gramian”, <i> International Conference on Control, Mechatronics and Automation (ICCMA 2025)</i>.</li>
+            <li>R. Krzysiak, et al., “Modeling and Control of a Prescribed Fire with UAVs as Sensors and Actuators,” <i>International Conference on Control, Mechatronics and Automation (ICCMA 2025)</i>.</li>
+            <li>S. Giri, R. Krzysiak, et al., “Aviris-Ng-Like Smart Virtual Remote Sensing via Spectra-Aware Physics Informed Gans”, <i>ASME 2025 International Design Engineering Technical Conferences \& Computers and Information in Engineering Conference (IDETC/CIE 2025)</i>.</li>
+            <li>R. Krzysiak et al., “Advancing Multi-Task Learning With Fractional Order Sgd and Quantus-Assessed Explainability for Planetary Health Monitoring”, <i>ASME 2025 International Design Engineering Technical Conferences \& Computers and Information in Engineering Conference (IDETC/CIE 2025)</i>.</li>
+            <li>R. Krzysiak et al., “Explainable Multi-task Learning for Improved Land Use Classification in Planetary Health Monitoring”, <i>IEEE International Conference on Digital Twins and Parallel Intelligence (DTPI 2024)</i>.</li>
+            <li>F. Winiberg, M. Fradet, R. Krzysiak et al., “Design and Performance of Indium Seals for Size-Constrained Tunable Laser Spectrometers”, <i>Review of Scientific Instruments</i>, 2024.</li>
+            <li>R. Krzysiak et al., “Human prior knowledge estimation from movement cues for information-based control of mobile robots during search”, <i>ACM Transactions on Human-Robot Interaction (THRI)</i>, 2024.</li>
+            <li>R. Krzysiak et al., “Thermally conductive-radiative driven digital twin of miniature tunable laser spectrometer in micro-gravity”, <i>Submitted, Applied Thermal Engineering</i>, 2023.</li>
+            <li>D. Hollenbeck, D. An, R. Krzysiak et al., “Towards Cognitive Battery Monitoring on Hybrid VTOL Fixed-Wing sUAS with Maximized Safe Endurance”, <i>International Conference on Control, Mechatronics and Automation (ICCMA 2023)</i>.</li>
+            <li>D. An, R. Krzysiak et al., “A Proximal Point Sensing System for Mapping Soil Moisture Using A Miniaturized Spectrometer”, <i>International Conference on Control, Mechatronics and Automation (ICCMA 2023)</i>.</li>
+            <li>R. Krzysiak, et al., “XCardio-Twin: An Explainable Framework to Aid in Monitoring and Analysis of Cardiovascular Status”, <i>IEEE International Conference on Digital Twins and Parallel Intelligence (DTPI 2023)</i>.</li>
+            <li>D. An, R. Krzysiak, et al., “Long Endurance Site-Specific Management of Biochar Applications Using Unmanned Aircraft Vehicle and Unmanned Ground Vehicle”, <i>IFAC-PapersOnLine</i>, 56.2 (2023): 8908-8913.</li>
+            <li>D. An, R. Krzysiak, et al., “Battery-health-aware UAV mission planning using a cognitive battery management system”, <i>IEEE International Conference on Unmanned Aircraft Systems (ICUAS 2023)</i>.</li>
+            <li>R. Krzysiak et al., “XAI – The future of wearable Internet of Things”, <i>IEEE/ASME MESA</i>, 2022.</li>
+            <li>R. Krzysiak, “Human-aware information-theoretic control of robotic swarms", <i>Master's Thesis, Northern Illinois University</i>, 2021.</li>
+            <li>R. Krzysiak and S. Butail, “Information based control of robots in search and rescue missions with human prior knowledge”, <i>IEEE Transactions on Human-Machine Systems</i>, 2021.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- SAE Software -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">CAE Software</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/SW_logo.png" class="responsive-img" />Solidworks
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/NX_logo.png" class="responsive-img" />NASTRAN
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/ansys_logo.png" class="responsive-img" />ANSYS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/Comsol_Logo.png" class="responsive-img" />COMSOL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matlab_logo.png" class="responsive-img" />MATLAB
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/cpp_logo.png" class="responsive-img" />C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/c_logo.png" class="responsive-img" />C
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Algorithms (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- PhD Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.ucmerced.edu/" target="_blank" class="teal-text hoverline">University of California, Merced</a></span>
+                </p>
+                <p class="brown-text">Merced, USA</p>
+                <p>
+                  <b>Degree: </b>Ph.D. in Mechanical Engineering  
+                  <br>
+                  <b>GPA: </b>4.0/4.0
+                  <br>
+                  <b>Expected Graduation: </b>December 2025
+                </p>
+
+                <ul>
+                  <p><b>Research Focus:</b></p>
+                  <ul>
+                    <li>Explainable AI for smart sensing</li>
+                    <li>Remote sensing and planetary science</li>
+                    <li>Digital twins for health and Earth monitoring</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- MS + BS Education -->
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href="https://www.niu.edu/" target="_blank" class="teal-text hoverline">Northern Illinois University</a></span>
+                </p>
+                <p class="brown-text">DeKalb, USA</p>
+                <p>
+                  <b>Degree: </b>Master of Science in Mechanical Engineering  
+                  <br>
+                  <b>GPA: </b>4.0/4.0  
+                  <br><br>
+                  <b>Degree: </b>Bachelor of Science in Mechanical Engineering  
+                  <br>
+                  <b>GPA: </b>3.8/4.0  
+                </p>
+
+                <ul>
+                  <p><b>Focus Areas:</b></p>
+                  <ul>
+                    <li>Dynamical Systems and Control</li>
+                    <li>Mechatronics and Robotics</li>
+                    <li>Swarm robotics and ROS</li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Call Rafal" data-position="top" data-tooltip="Call Rafal"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Rafal">+16308424220</a></a>
+        </p>
+        <p>
+          <a aria-label="Email Rafal" href="mailto:krzysiakgoral@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Rafal" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Rafal" href="mailto:krzysiakgoral@gmail.com"
+              class="hoverline">krzysiakgoral@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Rafal on GitHub" href="http://github.com/rafalkrzysiak" target="_blank"
+            data-position="top" data-tooltip="View Rafal on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Rafal on Github" href="http://github.com/rafalkrzysiak" class="hoverline"
+              target="_blank">github.com/rafalkrzysiak</a></a>
+        </p>
+        <p>
+          <a aria-label="View Rafal on LinkedIn" href="https://www.linkedin.com/in/rafal-krzysiak-864742b1/" target="_blank"
+            data-position="top" data-tooltip="View Rafal on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Rafal on LinkedIn" href="https://www.linkedin.com/in/rafal-krzysiak-864742b1/"
+              class="hoverline" target="_blank">linkedin.com/in/rafal-krzysiak-864742b1/</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Pythonist", "Mechanical Engineer", "Fast Learner", "Drone Enthusiast", "AI Researcher", "Astrophotographer"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Initialize scrollspy and sidenav
+      $(".scrollspy").scrollSpy();
+      $(".button-collapse").sideNav({
+        menuWidth: 190,
+        edge: "left",
+        closeOnClick: true
+      });
+    });
+  </script>
+
+  <script>
+  function fadeCarousel() {
+    const $images = $('.carousel-container img.carousel-fade');
+    let index = 0;
+
+    setInterval(function () {
+      $images.removeClass('active');
+      index = (index + 1) % $images.length;
+      $images.eq(index).addClass('active');
+    }, 5000); // Change every 4 seconds
+  }
+
+  $(document).ready(function () {
+    fadeCarousel();
+  });
+</script>
+
+<script>
+  const images = document.querySelectorAll('.carousel-fade');
+  const dots = document.querySelectorAll('.dot');
+  const prevBtn = document.querySelector('.carousel-prev');
+  const nextBtn = document.querySelector('.carousel-next');
+  let currentIndex = 0;
+  let timer;
+
+  function showImage(index) {
+    images.forEach((img, i) => {
+      img.classList.toggle('active', i === index);
+      dots[i].classList.toggle('active', i === index);
+    });
+    currentIndex = index;
+  }
+
+  function nextImage() {
+    let next = (currentIndex + 1) % images.length;
+    showImage(next);
+  }
+
+  function prevImage() {
+    let prev = (currentIndex - 1 + images.length) % images.length;
+    showImage(prev);
+  }
+
+  // Auto-play
+  function startCarousel() {
+    timer = setInterval(nextImage, 5000);
+  }
+
+  function stopCarousel() {
+    clearInterval(timer);
+  }
+
+  // Dots click
+  dots.forEach(dot => {
+    dot.addEventListener('click', () => {
+      stopCarousel();
+      showImage(parseInt(dot.getAttribute('data-index')));
+      startCarousel();
+    });
+  });
+
+  // Arrows
+  nextBtn.addEventListener('click', () => {
+    stopCarousel();
+    nextImage();
+    startCarousel();
+  });
+
+  prevBtn.addEventListener('click', () => {
+    stopCarousel();
+    prevImage();
+    startCarousel();
+  });
+
+  showImage(currentIndex);
+  startCarousel();
+</script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var n = document.querySelectorAll('#publications ol li').length;
+    var el = document.getElementById('pubCount');
+    if (el && n) el.textContent = n + '+';
+  });
+</script>
 
 </body>
+
 </html>
