@@ -320,12 +320,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #286432 repeat; /* #a7ffeb */
+  background: #002e00 repeat; /* #a7ffeb */
   position: relative;
 }
 
 #intro.section .container {
-  color: #002e00; /* #fff */
+  color: #d6f2d0; /* #fff */
   font-weight: 200;
   left: 0;
   position: absolute;
