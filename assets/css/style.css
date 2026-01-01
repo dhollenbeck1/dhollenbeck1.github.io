@@ -95,15 +95,15 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
+.readme:hover{
   color: white;
   background-color: #00796b;
-} */
+} 
 
 .contactme {
   position: relative;
   padding: 11px 35px;
-  background: none;
+  background: #00796b;
   color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
@@ -124,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #333;
+  color: #fff; /* #333 */
   font-size: 18px;
 }
 
@@ -200,7 +200,7 @@ nav i {
 } */
 
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url(../../assets/img/bg2.png) repeat;
   padding-left: 190px;
 }
 
