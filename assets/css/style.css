@@ -175,7 +175,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: black; /* white; */
   box-shadow: none;
   height: 0;
 }
