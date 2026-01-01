@@ -124,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #fff; /* #333 */
+  color: #333;
   font-size: 18px;
 }
 
@@ -325,7 +325,7 @@ h3 {
 }
 
 #intro.section .container {
-  color: gray;
+  color: #fff;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -383,7 +383,7 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: gray;
+  color: #81f27e;
   border-bottom: 2px solid #ffab40;
 }
 
