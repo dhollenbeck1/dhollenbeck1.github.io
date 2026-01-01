@@ -275,7 +275,7 @@ ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) 
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: #20e01f !important; /* 333 */
 }
 
 li.logo span {
@@ -320,12 +320,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  background: #286432 repeat; /* #a7ffeb */
   position: relative;
 }
 
 #intro.section .container {
-  color: #fff;
+  color: #002e00; /* #fff */
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -383,7 +383,7 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #81f27e;
+  color: #333;
   border-bottom: 2px solid #ffab40;
 }
 
